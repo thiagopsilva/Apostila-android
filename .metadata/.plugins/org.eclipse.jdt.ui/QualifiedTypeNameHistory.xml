@@ -53,4 +53,10 @@
 <fullyQualifiedTypeName name="android.app.ListActivity"/>
 <fullyQualifiedTypeName name="android.widget.SimpleCursorAdapter"/>
 <fullyQualifiedTypeName name="org.example.eventsv2.R.id"/>
+<fullyQualifiedTypeName name="android.opengl.GLSurfaceView"/>
+<fullyQualifiedTypeName name="android.opengl.GLSurfaceView.Renderer"/>
+<fullyQualifiedTypeName name="javax.microedition.khronos.opengles.GL10"/>
+<fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
+<fullyQualifiedTypeName name="android.opengl.GLUtils"/>
+<fullyQualifiedTypeName name="java.nio.ByteOrder"/>
 </qualifiedTypeNameHistroy>
