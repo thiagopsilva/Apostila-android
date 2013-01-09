@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/arilayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    tools:context=".Ari" >
+
+   <Button android:textSize="15px"
+      	android:id="@+id/button1" 
+      	android:gravity="center|bottom" 
+      	android:textColor="@color/text"
+      	android:text="@string/Bgcolor"  
+      	android:layout_width="100dp" 
+      	android:layout_height="wrap_content" ></Button>
+	
+	<Button
+	    android:id="@+id/button2"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:gravity="center|bottom"
+	    android:text="@string/Btcolor"
+	    android:textColor="@color/text"
+	    android:textColorHint="@color/text2"
+	    android:textSize="15px" >
+</Button>
+    
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+package org.example.eventsv2;
+
+public interface Constants {
+
+}

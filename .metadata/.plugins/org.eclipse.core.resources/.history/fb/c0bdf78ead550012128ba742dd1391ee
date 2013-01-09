@@ -1,0 +1,20 @@
+package org.example.mymap;
+
+import android.os.Bundle;
+import com.google.android.maps.MapActivity;
+import com.google.android.maps.MapController;
+import com.google.android.maps.MapView;
+import com.google.android.maps.MyLocationOverlay;
+
+public class MyMap extends MapActivity {
+	private MapView map;
+	private MapController controller;
+	
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_my_map);
+		initMapView();
+		initMyLocation();
+	}
+}

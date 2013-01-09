@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Suggest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="original_label">Original Text</string>
+    <string name="original_hint">Enter partial text</string>
+    <string name="result_label">Suggestions</string>
+
+</resources>
