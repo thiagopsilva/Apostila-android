@@ -109,7 +109,7 @@ class GLRenderer implements GLSurfaceView.Renderer {
 	      
 	    numFrames++;
 	    long fpsElapsed = System.currentTimeMillis() - fpsStartTime;
-	    if (fpsElapsed > 1 * 1000) { // every 1 seconds
+	    if (fpsElapsed > 5 * 1000) { // every 5 seconds
 	       float fps = (numFrames * 1000.0F) / fpsElapsed;
 	       Log.d(TAG, "Frames per second: " + fps + " (" + numFrames
 	             + " frames in " + fpsElapsed + " ms)");
