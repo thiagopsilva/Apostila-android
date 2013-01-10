@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.example.color.R.color"/>
-<fullyQualifiedTypeName name="org.example.ari.R.id"/>
-<fullyQualifiedTypeName name="android.graphics.ColorFilter"/>
-<fullyQualifiedTypeName name="org.example.ari.R.color"/>
-<fullyQualifiedTypeName name="android.graphics.Color"/>
 <fullyQualifiedTypeName name="android.content.res.ColorStateList"/>
 <fullyQualifiedTypeName name="org.example.ari.R.layout"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
@@ -17,7 +12,6 @@
 <fullyQualifiedTypeName name="org.example.browserview.R.id"/>
 <fullyQualifiedTypeName name="android.webkit.WebView"/>
 <fullyQualifiedTypeName name="android.os.Handler"/>
-<fullyQualifiedTypeName name="android.view.View"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="org.example.localbrowser.R.id"/>
 <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
@@ -59,4 +53,11 @@
 <fullyQualifiedTypeName name="android.graphics.BitmapFactory"/>
 <fullyQualifiedTypeName name="android.opengl.GLUtils"/>
 <fullyQualifiedTypeName name="java.nio.ByteOrder"/>
+<fullyQualifiedTypeName name="android.graphics.Matrix"/>
+<fullyQualifiedTypeName name="android.graphics.PointF"/>
+<fullyQualifiedTypeName name="android.view.MotionEvent"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.view.View.OnTouchListener"/>
+<fullyQualifiedTypeName name="android.widget.ImageView"/>
+<fullyQualifiedTypeName name="org.example.touch.R.id"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,41 @@
+package org.example.touch;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.graphics.Matrix;
+import android.graphics.PointF;
+import android.util.FloatMath;
+import android.util.Log;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.widget.ImageView;
+
+public class Touch extends Activity implements OnTouchListener {
+	private static final String TAG = "Touch";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_touch);
+		ImageView view = (ImageView) findViewById(R.id.imageView);
+		view.setOnTouchListener(this);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_touch, menu);
+		return true;
+	}
+	
+	public boolean onTouch(View v, MotionEvent event) {
+		// Dump touch event to log
+		dumpEvent(event);
+		return true; // indicate event was handled
+		
+	}
+
+
+}
