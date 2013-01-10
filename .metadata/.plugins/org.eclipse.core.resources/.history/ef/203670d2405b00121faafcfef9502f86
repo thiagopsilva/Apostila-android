@@ -1,0 +1,9 @@
+package org.example.widget;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import android.appwidget.AppWidgetProvider;
+
+public class Widget extends AppWidgetProvider {
+	// ...
+}
