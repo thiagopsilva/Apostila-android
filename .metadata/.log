@@ -6121,3 +6121,9 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-10 11:02:08.973
+!MESSAGE Failed to load properties file for project 'Widget'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-10 11:05:35.985
+!MESSAGE Failed to load properties file for project 'Widget'
