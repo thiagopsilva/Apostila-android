@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Wallpapper</string>
+    <string name="service_name">Service Name</string>
+    <string name="author">Author</string>
+    <string name="description">Sample live wallpaper from Hello, Android!</string>
+    
+
+</resources>

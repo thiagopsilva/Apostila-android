@@ -1,0 +1,52 @@
+package org.example.wallpaper;
+
+import android.service.wallpaper.WallpaperService;
+
+public class Wallpaper extends WallpaperService {
+	
+	private class MyEngine extends Engine {
+		// Engine implementation goes here...
+	}
+	@Override
+	public void onCreate(final SurfaceHolder holder) {
+		super.onCreate(holder);
+	}
+	
+	@Override
+	public Engine onCreateEngine() {
+		return new MyEngine();
+	}
+	
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+	}
+	
+	@Override
+	public void onSurfaceCreated(final SurfaceHolder holder) {
+		super.onSurfaceCreated(holder);
+	}
+	@Override
+	public void onSurfaceDestroyed(final SurfaceHolder holder) {
+		super.onSurfaceDestroyed(holder);
+	}
+	@Override
+	public void onSurfaceChanged(final SurfaceHolder holder, final int format, final int width, final int height) {
+		super.onSurfaceChanged(holder, format, width, height);
+	}
+	
+	@Override
+	public void onVisibilityChanged(final boolean visible) {
+		super.onVisibilityChanged(visible);
+	}
+	
+	@Override
+	public void onOffsetsChanged(final float, xOffset,
+			final float yOffset, final float xOffsetStep,
+			final float yOffsetStep, final int xPixelOffset, 
+			final int yPixelOffset) {
+		super.onOffsetsChanged(xOffset, yOffset, xOffsetStep,
+				yOffsetStep, xPixelOffset, yPixelOffset);
+			}
+	} 
+}

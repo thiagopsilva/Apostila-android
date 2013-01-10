@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="29" version="2.0">
+<workbench progressCount="27" version="2.0">
 <workbenchAdvisor/>
-<window height="720" maximized="true" width="1342" x="-1" y="24">
+<window height="690" maximized="true" width="938" x="353" y="161">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.ui.views.ProblemView"/>
 </fastViewData>
@@ -15,12 +15,12 @@
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="68" y="34"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="60" y="34"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="44" y="34"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="140" y="34"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="34"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="34"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="34"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="116" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="34"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -40,29 +40,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Widget Manifest" path="/home/r2/workspace/Widget/AndroidManifest.xml" title="Widget Manifest" tooltip="Widget/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Widget/AndroidManifest.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/home/r2/workspace/Widget/res/values/strings.xml" title="strings.xml" tooltip="Widget/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Widget/res/values/strings.xml"/>
-</editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="widget.xml" partName="widget.xml" path="/home/r2/workspace/Widget/res/xml/widget.xml" title="widget.xml" tooltip="Widget/res/xml/widget.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Widget/res/xml/widget.xml"/>
-</editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/r2/workspace/Widget/res/layout/main.xml" title="main.xml" tooltip="Widget/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Widget/res/layout/main.xml"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Widget.java" partName="Widget.java" path="/home/r2/workspace/Widget/src/org/example/widget/Widget.java" title="Widget.java" tooltip="Widget/src/org/example/widget/Widget.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Widget/src/org/example/widget/Widget.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="129" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wallpaper.java" partName="Wallpaper.java" path="/home/r2/workspace/Wallpaper/src/org/example/wallpaper/Wallpaper.java" title="Wallpaper.java" tooltip="Wallpaper/src/org/example/wallpaper/Wallpaper.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1153" selectionTopPixel="734"/>
 </editor>
 </editors>
 <views>
@@ -144,7 +128,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -286,7 +270,7 @@
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.29970545"/>
 </fastViews>
 <fastViewBars>
-<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="0">
 <fastViews>
 <view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
 <view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
@@ -350,86 +334,97 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Touch/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Touch/res/layout/activity_touch.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Touch/src/org/example/touch/Touch.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/layout/activity_widget.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Widget/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/layout/widget.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/layout/widget.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Widget/res/xml/widget"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/xml/widget.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Sodoku/res/anim/cycle_7.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Sodoku/res/anim/shake.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Widget/src/Widget.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Widget/src/org/example/widget/Widget.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Widget/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Widget/res/xml/widget.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Widget/src/org/example/widget/Widget.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Wallpapper/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Wallpapper/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Wallpapper/res/layout/wallpaper.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Wallpapper/res/xml/wallpaper.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpapper/src/org/example/wallpaper/Wallpaper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
 </editors>
-<item historyLabel="Touch.java" index="2">
-<position/>
-</item>
-<item historyLabel="Touch.java" index="2">
-<position info="not_deleted" x="1007" y="0"/>
-</item>
-<item historyLabel="activity_touch.xml" index="1"/>
-<item historyLabel="Touch.java" index="2">
-<position info="not_deleted" x="1007" y="0"/>
-</item>
-<item historyLabel="Touch Manifest" index="0"/>
-<item historyLabel="Touch.java" index="2">
-<position info="not_deleted" x="1007" y="0"/>
-</item>
-<item historyLabel="Touch Manifest" index="0"/>
-<item historyLabel="activity_touch.xml" index="1"/>
-<item historyLabel="activity_widget.xml" index="3"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget.xml" index="6"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget.xml" index="7"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget.xml" index="7"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget.xml" index="9"/>
-<item historyLabel="widget.xml" index="7"/>
-<item historyLabel="widget.xml" index="9"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget.xml" index="9"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="widget.xml" index="9"/>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="widget.xml" index="9"/>
-<item historyLabel="main.xml" index="10"/>
-<item historyLabel="cycle_7.xml" index="11"/>
-<item historyLabel="shake.xml" index="12"/>
-<item historyLabel="cycle_7.xml" index="11"/>
-<item historyLabel="main.xml" index="10"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="widget.xml" index="9"/>
-<item historyLabel="main.xml" index="10"/>
-<item historyLabel="Widget.java" index="13">
+<item historyLabel="widget.xml" index="2"/>
+<item historyLabel="Widget Manifest" index="0"/>
+<item historyLabel="widget.xml" index="2"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="cycle_7.xml" index="4"/>
+<item historyLabel="shake.xml" index="5"/>
+<item historyLabel="cycle_7.xml" index="4"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="strings.xml" index="1"/>
+<item historyLabel="widget.xml" index="2"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Widget.java" index="6">
 <position info="not_deleted" x="73" y="0"/>
 </item>
-<item historyLabel="Widget.java" index="14">
+<item historyLabel="Widget.java" index="7">
 <position info="not_deleted" x="129" y="0"/>
 </item>
-<item historyLabel="Widget Manifest" index="4"/>
-<item historyLabel="strings.xml" index="5"/>
-<item historyLabel="widget.xml" index="9"/>
-<item active="true" historyLabel="main.xml" index="10"/>
+<item historyLabel="Widget Manifest" index="0"/>
+<item historyLabel="strings.xml" index="1"/>
+<item historyLabel="widget.xml" index="2"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="strings.xml" index="8"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="Widget Manifest" index="9"/>
+<item historyLabel="widget.xml" index="10"/>
+<item historyLabel="Widget.java" index="11">
+<position info="not_deleted" x="967" y="0"/>
+</item>
+<item historyLabel="Widget.java" index="11">
+<position info="not_deleted" x="533" y="0"/>
+</item>
+<item historyLabel="Widget.java" index="11">
+<position info="not_deleted" x="621" y="0"/>
+</item>
+<item historyLabel="Widget.java" index="11">
+<position info="not_deleted" x="903" y="0"/>
+</item>
+<item historyLabel="Wallpapper Manifest" index="12"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="14"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="Wallpapper Manifest" index="12"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="wallpaper.xml" index="15"/>
+<item historyLabel="Wallpaper.java" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Wallpapper Manifest" index="12"/>
+<item historyLabel="Wallpaper.java" index="17">
+<position info="not_deleted" x="2431" y="0"/>
+</item>
+<item historyLabel="Wallpaper.java" index="17">
+<position/>
+</item>
+<item historyLabel="Wallpaper.java" index="17">
+<position/>
+</item>
+<item active="true" historyLabel="Wallpaper.java" index="17">
+<position info="not_deleted" x="1445" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -455,6 +450,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wallpaper.java" tooltip="Wallpaper/src/org/example/wallpaper/Wallpaper.java">
+<persistable path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wallpaper.java" tooltip="Wallpapper/src/org/example/wallpaper/Wallpaper.java">
+<persistable path="/Wallpapper/src/org/example/wallpaper/Wallpaper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="wallpaper.xml" tooltip="Wallpapper/res/xml/wallpaper.xml">
+<persistable path="/Wallpapper/res/xml/wallpaper.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="wallpaper.xml" tooltip="Wallpapper/res/layout/wallpaper.xml">
+<persistable path="/Wallpapper/res/layout/wallpaper.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Wallpapper/res/values/strings.xml">
+<persistable path="/Wallpapper/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Wallpapper/AndroidManifest.xml">
+<persistable path="/Wallpapper/AndroidManifest.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="widget_bg.jpg" tooltip="Widget/res/drawable-hdpi/widget_bg.jpg">
 <persistable path="/Widget/res/drawable-hdpi/widget_bg.jpg"/>
 </file>
@@ -481,24 +494,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="widget" tooltip="Widget/res/xml/widget">
 <persistable path="/Widget/res/xml/widget"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Widget/res/values/strings.xml">
-<persistable path="/Widget/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Widget/AndroidManifest.xml">
-<persistable path="/Widget/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Color/AndroidManifest.xml">
-<persistable path="/Color/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Touch/AndroidManifest.xml">
-<persistable path="/Touch/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="butterfly.png" tooltip="Touch/res/butterfly.png">
-<persistable path="/Touch/res/butterfly.png"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Touch.java" tooltip="Touch/src/org/example/touch/Touch.java">
-<persistable path="/Touch/src/org/example/touch/Touch.java"/>
 </file>
 </mruList>
 </workbench>

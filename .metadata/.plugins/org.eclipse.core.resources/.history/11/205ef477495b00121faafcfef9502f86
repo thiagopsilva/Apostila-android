@@ -1,0 +1,24 @@
+package org.example.wallpaper;
+
+import android.service.wallpaper.WallpaperService;
+
+public class Wallpaper extends WallpaperService {
+	
+	private class MyEngine extends Engine {
+		// Engine implementation goes here...
+	}
+	@Override
+	public void onCreate(final SurfaceHolder holder) {
+		super.onCreate(holder);
+	}
+	
+	@Override
+	public Engine onCreateEngine() {
+		return new MyEngine();
+	}
+	
+	@Override
+	public void onDestroy() {
+		super.onDestroy();
+	}
+}

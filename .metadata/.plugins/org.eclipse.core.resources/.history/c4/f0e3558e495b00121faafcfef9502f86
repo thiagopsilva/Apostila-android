@@ -1,0 +1,17 @@
+@Override
+public void onSurfaceCreated(final SurfaceHolder holder) {
+super.onSurfaceCreated(holder);
+}
+@Override
+public void onSurfaceDestroyed(final SurfaceHolder holder) {
+super.onSurfaceDestroyed(holder);
+}
+@Override
+public void onSurfaceChanged(final SurfaceHolder holder,
+final int format, final int width, final int height) {
+super.onSurfaceChanged(holder, format, width, height);
+}
+@Override
+public void onVisibilityChanged(final boolean visible) {
+super.onVisibilityChanged(visible);
+}
