@@ -36,8 +36,10 @@ public class Touch extends Activity implements OnTouchListener {
       view.setOnTouchListener(this);
    }
 
-   public boolean onTouch(View v, MotionEvent event) {
-      ImageView view = (ImageView) v;
+   public boolean onTouch(View v, MotionEvent rawEvent) {
+	   WrapMotionEvent event = WrapMotionEvent.wrap(rawEvent);
+	   // ...
+	   ImageView view = (ImageView) v;
 
       // Dump touch event to log
       dumpEvent(event);
@@ -128,4 +130,19 @@ public class Touch extends Activity implements OnTouchListener {
       float y = event.getY(0) + event.getY(1);
       point.set(x / 2, y / 2);
    }
+   
+   private void dumpEvent(WrapMotionEvent event) {
+	// ...
+   }
+   
+   private float spacing(WrapMotionEvent event) {
+	return mode;
+	// ...
+   }
+   
+   private void midPoint(PointF point, WrapMotionEvent event) {
+	// ...
+   }
+
+
 }

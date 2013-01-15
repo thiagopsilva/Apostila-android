@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.widget.Button"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="org.example.browserview.R.id"/>
 <fullyQualifiedTypeName name="android.webkit.WebView"/>
 <fullyQualifiedTypeName name="android.os.Handler"/>
-<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
 <fullyQualifiedTypeName name="org.example.localbrowser.R.id"/>
 <fullyQualifiedTypeName name="org.apache.commons.logging.Log"/>
 <fullyQualifiedTypeName name="android.util.Log"/>
@@ -60,4 +57,7 @@
 <fullyQualifiedTypeName name="javax.microedition.khronos.egl.EGLConfig"/>
 <fullyQualifiedTypeName name="javax.microedition.khronos.egl.EGLContext"/>
 <fullyQualifiedTypeName name="android.service.wallpaper.WallpaperService"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="org.example.dialogwithview.R.layout"/>
+<fullyQualifiedTypeName name="org.example.dialogwithview.R.id"/>
 </qualifiedTypeNameHistroy>

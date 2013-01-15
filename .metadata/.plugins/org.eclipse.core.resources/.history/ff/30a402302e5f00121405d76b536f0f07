@@ -1,0 +1,9 @@
+package org.example.touch;
+
+import android.os.Build;
+import android.util.Log;
+import android.view.MotionEvent;
+
+public class WrapMotionEvent {
+	protected MotionEvent event;
+}

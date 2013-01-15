@@ -1,0 +1,37 @@
+package org.example.touch;
+
+import android.os.Build;
+import android.util.Log;
+import android.view.MotionEvent;
+
+public class WrapMotionEvent {
+	protected MotionEvent event;
+	public int getAction() {
+		return event.getAction();
+	}
+
+
+	public final int getPointerCount() {
+		return event.getPointerCount();
+	}
+
+	public final int getPointerId(int pointerIndex) {
+		return event.getPointerId(pointerIndex);
+	}
+
+	public final float getX() {
+		return event.getX();
+	}
+
+	public final float getX(int pointerIndex) {
+		return event.getX(pointerIndex);
+	}
+
+	public final float getY() {
+		return event.getY();
+	}
+
+	public final float getY(int pointerIndex) {
+		return event.getY(pointerIndex);
+	}
+}
