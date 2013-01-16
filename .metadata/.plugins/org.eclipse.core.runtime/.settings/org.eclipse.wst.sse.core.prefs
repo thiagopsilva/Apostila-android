@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-task-tag-projects-already-scanned=Audio,Player,Sodoku,Som,Video,Ari,Color,BrowserIntent,BrowserView,LocalBrowser,LocationTest,SensorTest,Suggest,MyMap,google-play-services_lib,MyMaps,MainActivity,Events,Eventsv2,OpenGL,Touch,Widget,Wallpaper,DialogWithView,Test16
+task-tag-projects-already-scanned=Audio,Player,Sodoku,Som,Video,Ari,Color,BrowserIntent,BrowserView,LocalBrowser,LocationTest,SensorTest,Suggest,MyMap,google-play-services_lib,MyMaps,MainActivity,Events,Eventsv2,OpenGL,Touch,Widget,Wallpaper,DialogWithView,Test16,BackgroundWithDelay

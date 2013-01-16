@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="16" version="2.0">
 <workbenchAdvisor/>
 <window height="690" maximized="true" width="938" x="353" y="161">
 <fastViewData fastViewLocation="1024">
@@ -15,14 +15,14 @@
 <coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="68" y="34"/>
 <coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="60" y="34"/>
 <coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="44" y="34"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="140" y="34"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="84" y="34"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="34"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="116" y="34"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="34"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="44" y="34"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -41,17 +41,21 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wallpaper.java" partName="Wallpaper.java" path="/home/r2/workspace/Wallpaper/src/org/example/wallpaper/Wallpaper.java" title="Wallpaper.java" tooltip="Wallpaper/src/org/example/wallpaper/Wallpaper.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2932" selectionTopPixel="1069"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_background_with_delay.xml" partName="activity_background_with_delay.xml" path="/home/r2/workspace/BackgroundWithDelay/res/layout/activity_background_with_delay.xml" title="activity_background_with_delay.xml" tooltip="BackgroundWithDelay/res/layout/activity_background_with_delay.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BackgroundWithDelay/res/layout/activity_background_with_delay.xml"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GLRenderer.java" partName="GLRenderer.java" path="/home/r2/workspace/Wallpaper/src/org/example/wallpaper/GLRenderer.java" title="GLRenderer.java" tooltip="Wallpaper/src/org/example/wallpaper/GLRenderer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Wallpaper/src/org/example/wallpaper/GLRenderer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2339" selectionTopPixel="1584"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BackgroundWithDelay.java" partName="BackgroundWithDelay.java" path="/home/r2/workspace/BackgroundWithDelay/src/com/example/backgroundwithdelay/BackgroundWithDelay.java" title="BackgroundWithDelay.java" tooltip="BackgroundWithDelay/src/com/example/backgroundwithdelay/BackgroundWithDelay.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BackgroundWithDelay/src/com/example/backgroundwithdelay/BackgroundWithDelay.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="768" selectionTopPixel="193"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" partName="R.java" path="/home/r2/workspace/BackgroundWithDelay/gen/com/example/backgroundwithdelay/R.java" title="R.java" tooltip="BackgroundWithDelay/gen/com/example/backgroundwithdelay/R.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BackgroundWithDelay/gen/com/example/backgroundwithdelay/R.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="359" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -79,7 +83,8 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (14 items)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="652" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -132,7 +137,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -209,7 +214,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -268,34 +273,40 @@
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.29970545"/>
 </fastViews>
 <fastViewBars>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
-<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.29879102"/>
 <view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
 <view id="org.eclipse.ui.console.ConsoleView" ratio="0.4300518"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.9948186"/>
-<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" ratio="0.29879102"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">
@@ -322,13 +333,11 @@
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -338,129 +347,147 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Wallpapper/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Wallpapper/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Wallpapper/res/xml/wallpaper.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpapper/src/org/example/wallpaper/Wallpaper.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/DialogWithView/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DialogWithView/src/org/example/dialogwithview/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sodoku/src/org/example/sodoku/Keypad.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sodoku/src/org/example/sodoku/Game.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sodoku/src/org/example/sodoku/Sodoku.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/DialogWithView/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Sodoku/src/org/example/sodoku/Game.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/MyMaps/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/DialogWithView/src/org/example/dialogwithview/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/MyMaps/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/DialogWithView/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/MyMaps/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Test16/res/layout/activity_test16.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpaper/src/org/example/wallpaper/GLRenderer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Touch/src/org/example/touch/Touch.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Touch/src/org/example/touch/WrapMotionEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Touch/src/org/example/touch/EclairMotionEvent.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpaper/src/org/example/wallpaper/GLCube.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/BackgroundWithDelay/res/layout/activity_background_with_delay.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Touch/res/layout/activity_touch.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BackgroundWithDelay/src/com/example/backgroundwithdelay/BackgroundWithDelay.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/BackgroundWithDelay/res/layout/activity_background_with_delay.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Eventsv2/res/layout/activity_eventsv2.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/BackgroundWithDelay/gen/com/example/backgroundwithdelay/R.java"/>
 </editors>
-<item historyLabel="wallpaper.xml" index="2"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="wallpaper.xml" index="2"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="wallpaper.xml" index="2"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="wallpaper.xml" index="2"/>
-<item historyLabel="strings.xml" index="1"/>
-<item historyLabel="wallpaper.xml" index="2"/>
-<item historyLabel="Wallpaper.java" index="3">
+<item historyLabel="Wallpaper.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Wallpapper Manifest" index="0"/>
-<item historyLabel="Wallpaper.java" index="4">
-<position info="not_deleted" x="2431" y="0"/>
+<item historyLabel="GLCube.java" index="5">
+<position info="not_deleted" x="3740" y="0"/>
 </item>
-<item historyLabel="Wallpaper.java" index="4">
+<item historyLabel="GLRenderer.java" index="1">
+<position info="not_deleted" x="1745" y="0"/>
+</item>
+<item historyLabel="EclairMotionEvent.java" index="4">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="WrapMotionEvent.java" index="3">
+<position info="not_deleted" x="702" y="0"/>
+</item>
+<item historyLabel="Touch.java" index="2">
+<position info="not_deleted" x="4498" y="2"/>
+</item>
+<item historyLabel="WrapMotionEvent.java" index="3">
+<position info="not_deleted" x="702" y="0"/>
+</item>
+<item historyLabel="EclairMotionEvent.java" index="4">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="activity_test16.xml" index="0"/>
+<item historyLabel="activity_background_with_delay.xml" index="7"/>
+<item historyLabel="activity_touch.xml" index="8"/>
+<item historyLabel="activity_background_with_delay.xml" index="7"/>
+<item historyLabel="activity_touch.xml" index="8"/>
+<item historyLabel="activity_background_with_delay.xml" index="7"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="1183" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
 <position/>
 </item>
-<item historyLabel="Wallpaper.java" index="4">
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="1183" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
 <position/>
 </item>
-<item historyLabel="Wallpaper.java" index="4">
-<position info="not_deleted" x="1153" y="0"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="409" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="Wallpaper.java" index="4">
-<position info="not_deleted" x="1153" y="0"/>
+<item historyLabel="activity_background_with_delay.xml" index="7"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="675" y="0"/>
 </item>
-<item historyLabel="activity_main.xml" index="5"/>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="activity_background_with_delay.xml" index="7"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="800" y="0"/>
 </item>
-<item historyLabel="Keypad.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="activity_background_with_delay.xml" index="7"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="800" y="0"/>
 </item>
-<item historyLabel="Game.java" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Sodoku.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Keypad.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="159" y="0"/>
-</item>
-<item historyLabel="Sodoku.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="382" y="0"/>
-</item>
-<item historyLabel="Sodoku.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="6">
-<position info="not_deleted" x="382" y="0"/>
-</item>
-<item historyLabel="DialogWithView Manifest" index="10"/>
-<item historyLabel="Game.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DialogWithView Manifest" index="10"/>
-<item historyLabel="MyMaps Manifest" index="12"/>
-<item historyLabel="DialogWithView Manifest" index="10"/>
-<item historyLabel="MyMaps Manifest" index="12"/>
-<item historyLabel="DialogWithView Manifest" index="10"/>
-<item historyLabel="MainActivity.java" index="13">
-<position info="not_deleted" x="0" y="1668"/>
-</item>
-<item historyLabel="DialogWithView Manifest" index="10"/>
-<item historyLabel="MyMaps Manifest" index="14"/>
-<item historyLabel="DialogWithView Manifest" index="10"/>
-<item historyLabel="MainActivity.java" index="13">
-<position info="not_deleted" x="1860" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="15"/>
-<item historyLabel="MyMaps Manifest" index="16"/>
-<item historyLabel="Wallpaper.java" index="17">
-<position info="not_deleted" x="5601" y="0"/>
-</item>
-<item historyLabel="Wallpaper.java" index="17">
+<item historyLabel="activity_background_with_delay.xml" index="10"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
 <position/>
 </item>
-<item historyLabel="Wallpaper.java" index="17">
+<item historyLabel="activity_eventsv2.xml" index="11"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
 <position/>
 </item>
-<item historyLabel="Wallpaper.java" index="17">
-<position info="not_deleted" x="5606" y="0"/>
+<item historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
 </item>
-<item historyLabel="GLRenderer.java" index="18">
+<item historyLabel="BackgroundWithDelay.java" index="9">
 <position/>
 </item>
-<item historyLabel="Wallpaper.java" index="17">
-<position info="not_deleted" x="5601" y="0"/>
+<item historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
 </item>
-<item historyLabel="GLRenderer.java" index="18">
-<position info="not_deleted" x="2339" y="0"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
 </item>
-<item active="true" historyLabel="Wallpaper.java" index="17">
-<position info="not_deleted" x="5601" y="0"/>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="789" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="467" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position info="not_deleted" x="514" y="0"/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item historyLabel="BackgroundWithDelay.java" index="9">
+<position/>
+</item>
+<item active="true" historyLabel="R.java" index="12">
+<position info="not_deleted" x="359" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -468,6 +495,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -481,11 +514,41 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GLRenderer.java" tooltip="Wallpaper/src/org/example/wallpaper/GLRenderer.java">
-<persistable path="/Wallpaper/src/org/example/wallpaper/GLRenderer.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="BackgroundWithDelay/gen/com/example/backgroundwithdelay/R.java">
+<persistable path="/BackgroundWithDelay/gen/com/example/backgroundwithdelay/R.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_eventsv2.xml" tooltip="Eventsv2/res/layout/activity_eventsv2.xml">
+<persistable path="/Eventsv2/res/layout/activity_eventsv2.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BackgroundWithDelay.java" tooltip="BackgroundWithDelay/src/com/example/backgroundwithdelay/BackgroundWithDelay.java">
+<persistable path="/BackgroundWithDelay/src/com/example/backgroundwithdelay/BackgroundWithDelay.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_touch.xml" tooltip="Touch/res/layout/activity_touch.xml">
+<persistable path="/Touch/res/layout/activity_touch.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_background_with_delay.xml" tooltip="BackgroundWithDelay/res/layout/activity_background_with_delay.xml">
+<persistable path="/BackgroundWithDelay/res/layout/activity_background_with_delay.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wallpaper.java" tooltip="Wallpaper/src/org/example/wallpaper/Wallpaper.java">
 <persistable path="/Wallpaper/src/org/example/wallpaper/Wallpaper.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GLCube.java" tooltip="Wallpaper/src/org/example/wallpaper/GLCube.java">
+<persistable path="/Wallpaper/src/org/example/wallpaper/GLCube.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GLRenderer.java" tooltip="Wallpaper/src/org/example/wallpaper/GLRenderer.java">
+<persistable path="/Wallpaper/src/org/example/wallpaper/GLRenderer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EclairMotionEvent.java" tooltip="Touch/src/org/example/touch/EclairMotionEvent.java">
+<persistable path="/Touch/src/org/example/touch/EclairMotionEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WrapMotionEvent.java" tooltip="Touch/src/org/example/touch/WrapMotionEvent.java">
+<persistable path="/Touch/src/org/example/touch/WrapMotionEvent.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Touch.java" tooltip="Touch/src/org/example/touch/Touch.java">
+<persistable path="/Touch/src/org/example/touch/Touch.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_test16.xml" tooltip="Test16/res/layout/activity_test16.xml">
+<persistable path="/Test16/res/layout/activity_test16.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="MyMaps/AndroidManifest.xml">
 <persistable path="/MyMaps/AndroidManifest.xml"/>
@@ -495,36 +558,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Sodoku.java" tooltip="Sodoku/src/org/example/sodoku/Sodoku.java">
 <persistable path="/Sodoku/src/org/example/sodoku/Sodoku.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Game.java" tooltip="Sodoku/src/org/example/sodoku/Game.java">
-<persistable path="/Sodoku/src/org/example/sodoku/Game.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Keypad.java" tooltip="Sodoku/src/org/example/sodoku/Keypad.java">
-<persistable path="/Sodoku/src/org/example/sodoku/Keypad.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="DialogWithView/src/org/example/dialogwithview/MainActivity.java">
-<persistable path="/DialogWithView/src/org/example/dialogwithview/MainActivity.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="DialogWithView/res/layout/activity_main.xml">
-<persistable path="/DialogWithView/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Wallpaper.java" tooltip="Wallpapper/src/org/example/wallpaper/Wallpaper.java">
-<persistable path="/Wallpapper/src/org/example/wallpaper/Wallpaper.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="wallpaper.xml" tooltip="Wallpapper/res/xml/wallpaper.xml">
-<persistable path="/Wallpapper/res/xml/wallpaper.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="wallpaper.xml" tooltip="Wallpapper/res/layout/wallpaper.xml">
-<persistable path="/Wallpapper/res/layout/wallpaper.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Wallpapper/res/values/strings.xml">
-<persistable path="/Wallpapper/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Wallpapper/AndroidManifest.xml">
-<persistable path="/Wallpapper/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="widget_bg.jpg" tooltip="Widget/res/drawable-hdpi/widget_bg.jpg">
-<persistable path="/Widget/res/drawable-hdpi/widget_bg.jpg"/>
 </file>
 </mruList>
 </workbench>

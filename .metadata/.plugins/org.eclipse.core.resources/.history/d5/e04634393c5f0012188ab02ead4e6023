@@ -1,0 +1,55 @@
+package com.example.backgroundwithdelay;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.os.Handler;
+import android.view.Menu;
+
+public class BackgroundWithDelay extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_background_with_delay);
+		
+		
+		final Handler h = new Handler();
+		final int count = 0;
+	    final Runnable r =new Runnable()
+	    {
+	        public void run() 
+	        {
+	            if(count < 6){
+	                if(count % 2 == 0){
+	                	int count2 = count;
+	                    count2++;
+	                    findViewById(R.layout.activity_background_with_delay).setBackgroundResource(R.drawable.butterfly);
+	                    h.postDelayed(500);
+	                }else{
+	                	int count2 = count;
+	                    count2++;
+	                    findViewById(R.layout.activity_background_with_delay).setBackgroundResource(R.drawable.robocop);
+	                    h.postDelayed(r,500);
+	                }
+	            }
+
+	        }
+
+	    };
+	    h.post(r);
+	}
+
+	protected void setBackground(int butterfly) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.activity_background_with_delay, menu);
+		return true;
+	}
+	
+
+}
