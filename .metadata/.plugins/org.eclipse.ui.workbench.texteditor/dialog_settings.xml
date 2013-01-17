@@ -3,18 +3,22 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="310" key="DIALOG_WIDTH"/>
 		<item value="76" key="DIALOG_Y_ORIGIN"/>
-		<item value="430" key="DIALOG_HEIGHT"/>
 		<item value="529" key="DIALOG_X_ORIGIN"/>
+		<item value="430" key="DIALOG_HEIGHT"/>
 		<item value="1|Sans|10.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
 		<item value="initThread" key="selection"/>
 		<list key="findhistory">
+			<item value="&lt;FrameLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"/>
+			<item value="&lt;set xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;"/>
+			<item value="package org.example.viewflipper;"/>
+			<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;"/>
 			<item value="initThread"/>
 		</list>
 		<list key="replacehistory">

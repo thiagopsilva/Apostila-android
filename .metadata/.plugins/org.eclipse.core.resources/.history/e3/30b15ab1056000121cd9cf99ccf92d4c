@@ -1,0 +1,48 @@
+<ViewFlipper android:id="@+id/flipper"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent">
+
+
+  <FrameLayout android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_gravity="top" 
+            android:layout_marginTop="50dip">
+
+   <ListView android:id="@+id/list" 
+             android:layout_width="fill_parent"
+          android:layout_height="wrap_content" 
+          android:dividerHeight="0dip"
+          android:divider="@null" 
+          android:listSelector="@drawable/list_selector"
+           android:layout_gravity="center" />
+           
+     </FrameLayout>
+
+
+  <LinearLayout android:layout_width="fill_parent"
+             android:layout_height="wrap_content" 
+             android:orientation="vertical"
+             android:background="@drawable/wood01" 
+             android:padding="20dip"
+             android:layout_gravity="top" 
+             android:layout_marginTop="50dip">
+
+   <TextView android:layout_width="wrap_content" 
+             android:layout_height="wrap_content"
+          android:text="TEST" 
+          android:layout_gravity="center" 
+          android:padding="15dip"
+          android:textSize="22dip" 
+          android:textColor="@color/white" />
+
+   <Button android:text="Go Back" 
+           android:id="@+id/back_btn"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" />
+
+
+  </LinearLayout>
+
+
+
+ </ViewFlipper>

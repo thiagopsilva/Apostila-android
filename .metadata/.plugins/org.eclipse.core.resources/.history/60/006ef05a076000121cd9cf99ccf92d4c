@@ -1,0 +1,17 @@
+package org.example.viewflipper;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.MotionEvent;
+import android.widget.ViewFlipper;
+public class Main extends Activity {
+private ViewFlipper vf;
+private float lastX;
+/** Called when the activity is first created. */
+@Override
+public void onCreate(Bundle savedInstanceState) {
+super.onCreate(savedInstanceState);
+setContentView(R.layout.activity_main);
+vf = (ViewFlipper) findViewById(R.id.view_flipper);
+}
+}
